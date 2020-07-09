@@ -1,0 +1,151 @@
+
+aside#left {
+  width: 240px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 0px;
+  font-weight: bold;
+  padding: 20px;
+}
+aside#left #cat_title {
+  padding: 7px 0 7px 30px;
+  background: linear-gradient(-45deg, navy 20%,teal 80%);
+  color: #ffffff;
+}
+aside#left li {
+  color: #666666;
+  padding: 7px 0 7px 30px;
+  border-left: solid 1px #cccccc;
+  border-right: solid 1px #cccccc;
+  border-bottom: solid 1px #cccccc;
+}
+aside#left #customer {
+  width: 213px;
+  height: 100px;
+  margin-top: 20px;
+  border: solid 1px #cccccc;
+  background-color: #ffffff;
+}
+aside#left #customer img {
+  margin: 0;
+}
+aside#left #over a:link {
+  color:#ffffff;
+}
+aside#left #over  ul a:visited {
+  color:#ffffff;
+}
+aside#left #over  ul a:hover {
+  color:#8fc31f;
+}
+aside#left #over  ul a:active {
+  color:#8fc31f;
+}
+section#main {
+  width: 1200px;
+  float: left;
+  margin-left: 80px;
+}
+section#main {
+  margin-top: 20px;
+  padding: 0 0 5px 0;
+  border-bottom: solid 1px #bbbbbb;
+}
+section#main #total_search {
+  height: 35px;
+  position: relative;
+}
+section#main #total {
+  position: absolute;
+  top: 10px;
+}
+section#main #search {
+  position: absolute;
+  left: 460px;
+}
+section#main #search #select_img {
+  position: absolute;
+  top: 9px;
+}
+section#main #search #search_select {
+  position: absolute;
+  top: 5px;
+  left: 60px;
+}
+section#main #search #search_input {
+  position: absolute;
+  top: 7px;
+  left: 130px;
+}
+section#main #search #search_input input {
+  width: 100px;
+}
+section#main #search #search_btn {
+  position: absolute;
+  top: 6px;
+  left: 240px;
+}
+section#main table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+section#main tr {
+  height: 30px;
+}
+section#main th {
+  border-top: solid 2px #aaaaaa;
+  background-color:  #0f1560;
+  color: #ffffff;
+}
+section#main td {
+  border-bottom: solid 1px #dddddd;
+}
+section#main td.col1 {
+  width: 60px;
+  text-align: center;
+}
+section#main td.col2 {
+
+}
+section#main td.col3 {
+  width: 60px;
+  text-align: center;
+}
+section#main td.col4 {
+  width:80px;
+  text-align: center;
+}
+section#main td.col5 {
+  width: 60px;
+  text-align: center;
+}
+section#main td a:link {
+  text-decoration: none;
+  color: #444444;
+}
+section#main td a:hover {
+  text-decoration: none;
+  color: #444444;
+}
+section#main td a:visited {
+  text-decoration: none;
+  color: #444444;
+}
+section#main td a:active {
+  text-decoration: none;
+  color: #444444;
+}
+
+aside #cat_title a:link {
+  color:#ffffff;
+}
+aside #cat_title a:visited {
+  color:#ffffff;
+}
+aside #cat_title a:hover {
+  color:#8fc31f;
+}
+aside #cat_title a:active {
+  color:#8fc31f;
+}

@@ -1,0 +1,60 @@
+
+section#main {
+  width:  990px;
+  margin: auto;
+  float: left;
+}
+select#main_img{
+  margin: auto;
+}
+#text{
+  margin-top:200px;
+  color:#8fc31f;
+  font-size: 24px;
+}
+#page {
+  margin: 0px auto;
+}
+#customer {
+  width:300px;
+  height:111px;
+  float:left;
+  margin-left: 213px;
+  margin-bottom: 200px;
+  margin-top:300px;
+}
+#customer .phone {
+  margin-left:10px;
+}
+#notice {
+  width:300px;
+  height:111px;
+  margin-top:20px;
+  margin-left:40px;
+}
+#customer1 {
+  width:300px;
+  height:111px;
+  float:left;
+  margin-left: 213px;
+  margin-bottom: 350px;
+  margin-top:50px;
+}
+#customer img{
+  overflow: hidden;
+  width: 200px;
+  transition: all 0.5s ease-in-out;
+}
+#customer img:hover{
+  transform:scale(1.5);
+  -webkit-transform:scale(1.5);
+}
+#customer1 img{
+  overflow: hidden;
+  width: 200px;
+  transition: all 0.5s ease-in-out;
+}
+#customer1 img:hover{
+  transform:scale(1.5);
+  -webkit-transform:scale(1.5);
+}

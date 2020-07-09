@@ -1,0 +1,97 @@
+
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  font-family: "맑은 고딕","돋움";
+  font-size: 12px;
+  color:#444444;
+  background-color: #ffffff;
+}
+ul {
+  list-style-type: none;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #444444;
+}
+.clear {
+  clear: both;
+}
+header {
+  height: 128px;
+}
+header #top {
+  width: 990px;
+  margin: 0 auto;
+
+}
+header #logo {
+  float: left;
+  margin: 30px 0 0 0;
+}
+header #main_menu{
+  height: 38px;
+  margin-top: 15px;
+  background: linear-gradient(60deg,#00011b,#233cb7 ,#bbff00 );
+}
+header #main_menu ul {
+  width: 990px;
+  margin: auto;
+  padding-top:12px;
+  text-align: center;
+}
+header #main_menu li {
+  display: inline;
+  margin: 0 100px;
+}
+header #main_menu a:link {
+  color:#ffffff;
+}
+header #main_menu a:visited {
+  color:#ffffff;
+}
+header #main_menu a:hover {
+  color:#8fc31f;
+}
+header #main_menu a:active {
+  color:#8fc31f;
+}
+footer {
+  height: 200px;
+  margin-top: 50px;
+}
+footer #footer_menu_box {
+  height:50px;
+  background: linear-gradient(60deg,#00011b,#233cb7 ,#bbff00 );
+}
+footer #footer_menu {
+  width: 1010px;
+  margin:0 auto;
+  float: right;
+  padding-top: 15px;
+}
+footer #footer_menu ul {
+  margin-left: 210px;
+}
+footer #footer_menu li {
+  display:inline;
+  margin-left: 20px;
+}
+footer #footer_menu a:link {
+  color:#ffffff;
+}
+footer #footer_menu a:hover {
+  color:#ffffff;
+}
+footer #footer_menu a:visited {
+  color:#ffffff;
+}
+footer #footer_menu a:active {
+  color:#ffffff;
+}
+footer #footer_logo {
+  float: right;
+  margin: 5px 0 0 210px;
+}

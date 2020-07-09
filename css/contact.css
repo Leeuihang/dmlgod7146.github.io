@@ -1,0 +1,46 @@
+main{
+  background: linear-gradient(60deg,#00011b,#233cb7 ,#bbff00 );
+  margin-bottom: auto;
+}
+#form {
+    margin-bottom: 50px;
+}
+tr, th {
+    font-family: "맑은 고딕","돋움";
+    font-size: 14px;
+    color:#ffffff;
+}
+table {
+    text-align: left;
+    margin: auto;
+}
+p {
+   font-family: "맑은 고딕","돋움";
+   font-size: 10px;
+}
+.button {
+    border-style: none;
+    padding: 8px;
+    color: #000000;
+    transition: all 0.3s;
+}
+.button:hover {
+    background-color: #ffffff;
+    color: #8fc31f;
+}
+#contact h2 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+#contact-form {
+   width: 500px;
+   margin: 10px auto 60px auto;
+   border: 1px solid #dddddd;
+   padding: 15px;
+}
+#contact-form table {
+
+}
+input {
+  width: auto;
+}

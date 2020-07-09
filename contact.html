@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <mate name="viewport" contact="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./css/common2.css">
+    <link rel="stylesheet" type="text/css" href="./css/contact.css">
+  </head>
+  <body>
+    <header>
+      <section id="top">
+        <a id="logo" href="index.html"><img src="./img/logo.png"></a>
+        <div class="clear"></div>
+      </section>
+      <nav id="main_menu">
+        <ul>
+          <li><a href="aboutme.html">INTRODUCTION</a></li>
+          <li><a href="homework.html">ASSIGNMENT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <div id="contact" >
+       <h2></h2>
+         <form id="contact-form" methond="post" action="#" >
+
+              <table border="0">
+                <tr>
+                    <td>이메일</td>
+                    <td> <input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td></td><td>@<select name="email">
+                            <option value="">구글</option>
+                            <option value="">네이버</option>
+                            <option value="">다음</option>
+                            <option value="">직접입력</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>제목</td>
+                    <td><input type="title" name="upw"></td>
+                </tr>
+                <tr>
+                    <td>내용</td>
+                    <td><textarea rows='6' cols='50'></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="전송" class="button">
+                    <input type="reset" value="재설정" class="button"></td>
+                </tr>
+            </table>
+        </form>
+        <h2></h2>
+      <!--  폼 화면 끝  -->
+     </div>
+   </main>
+   <div class="clear"></div>
+    <footer>
+      <section id="footer_menu_box">
+        <nav id="footer_menu">
+          <ul>
+            <li><a href="#">이메일 | dmlgod7146 @ naver.com</a></li>
+            <li><a href="#">연락처 | 010 9227 7146</a></li>
+            <li><a href="#">항상 웃는 기획자 | 이의행</a></li>
+          </ul>
+        </nav>
+      </section>
+      <a href="contact.html"><img id="footer_logo" src="./img/footer_logo.png" onmouseover="this.src='./img/footer_logo2.png'" onmouseout="this.src='./img/footer_logo.png'"></a>
+    </footer>
+  </body>
+</html>
